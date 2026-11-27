@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "กล้อง", "available": true },
+  { "id": 2, "name": "โปรเจกเตอร์", "available": false },
+  { "id": 3, "name": "ไมโครโฟน", "available": true },
+  { "id": 4, "name": "ขาตั้งกล้อง", "available": false }
+]
