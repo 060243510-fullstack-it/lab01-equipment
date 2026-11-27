@@ -27,13 +27,15 @@ agy --version
 git clone <url ของ repo เรา>
 cd <ชื่อโฟลเดอร์>
 git config user.name "ชื่อ นามสกุล"
-git config user.email "อีเมลที่ใช้กับ GitHub"
+git config user.email "อีเมล noreply จาก GitHub"
 code .
 ```
 
 ผลที่ควรเห็น: VS Code เปิดโฟลเดอร์โปรเจกต์
 
 > repo แบบ Public ทุกคนเห็นได้ ห้ามใส่รหัสนักศึกษา รหัสผ่าน หรือ API key
+
+> อีเมลที่ตั้งจะเห็นได้ในประวัติ commit ให้ใช้อีเมล `noreply` ของตัวเอง: GitHub → **Settings** → **Emails** → ติ๊ก **Keep my email addresses private** แล้วคัดลอกอีเมลที่ลงท้าย `@users.noreply.github.com`
 
 ## CP2 รันโปรเจกต์ (15 นาที)
 
@@ -61,7 +63,7 @@ npm run dev
 
 ## CP4 แก้โค้ดเอง ห้ามใช้ AI (30 นาที)
 
-1. แก้ `index.html` เปลี่ยน `ผู้พัฒนา: ...` เป็นชื่อของตัวเอง แล้วบันทึกไฟล์
+1. แก้ `index.html` เปลี่ยน `ผู้พัฒนา: ...` เป็นชื่อหรือชื่อเล่นของตัวเอง แล้วบันทึกไฟล์
 2. ส่งขึ้น GitHub
 
 ```bash
